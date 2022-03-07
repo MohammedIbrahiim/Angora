@@ -123,11 +123,20 @@ header .nav-item a:hover,footer .nav-item a:hover
     color: #f25454;
 }
 
-
 li 
 {
     list-style: none;
 }
+
+@media (width:300){
+
+}
+@media screen and (max-width: 480px) {
+    .carousel-inner .b{
+        font-size: 20px;
+    }
+  }
+
 /*end header*/
 /*start about*/
 .item h2
@@ -138,7 +147,7 @@ li
 } 
 .item h3
 {
-    top: 40px;
+    top: 30px;
     font-size: 40px;
     font-weight: 900;
 }
@@ -169,7 +178,7 @@ li
 .progress
 {
     height: 4px;
-    width: 500px;
+    /* width: 500px; */
 }
 .progress .progress-bar
 {
@@ -190,26 +199,7 @@ li
     color: #444;
     font-weight: 600;
 }
-p span 
-{
-    position: relative;
-    left: 305px;
-    font-weight: 400;
-}
-.p2 span
-{
-    left: 360px;
-}
-.p3 span 
-{
-    left: 283px;
-}
-.p4 span
-{
-    left: 225px ;
-}
-/*end about*/
-/*start team*/
+
 
 .team h3 
 {
@@ -485,6 +475,10 @@ input:focus,textarea:focus{
 {
     color: #b0b0b0 !important;
 }
+.footer-two li a i 
+{
+    color: wheat;
+}
 .border-p,.border-p3
 {   
     color: #979797;
@@ -532,3 +526,4 @@ input:focus,textarea:focus{
     color: #f25454;
 }
 /*end footer*/
+

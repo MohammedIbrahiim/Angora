@@ -4,14 +4,20 @@ $(document).ready(function(){
         margin:20,
         loop:true,
         responsive:{
-            1200:{
-                items:4
+            0:{
+                items:1,
+                nav:true
             },
-            300:{
-                items:2
+            600:{
+                items:3,
+                nav:false
+            },
+            1000:{
+                items:4,
+                nav:true,
+                loop:false
             }
         }
-  
 
     });
   });
