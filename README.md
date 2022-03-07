@@ -1,2 +1,2 @@
 # Angora
-sample exercise by html ,css , bootstrabp and owlcarousel slider plugin 
+sample exercise by html ,css , bootstrap and owlcarousel slider plugin 
